@@ -34,6 +34,16 @@
     margin: 10px;
 }
 
+.company {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #3A4452;
+}
+
 form .display {
     display: flex;
     justify-content: flex-end;
@@ -43,9 +53,14 @@ form .display {
 form .display input {
     text-align: right;
     flex: 1;
+    font-size: 45px;
     box-shadow: none;
 }
 
 form input.equals {
     width: 145px;
+}
+
+form input.operator {
+    color: #33FFD8;
 }
